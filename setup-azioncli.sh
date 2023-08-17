@@ -10,7 +10,7 @@ else
 fi
 
 echo binary download
-curl -o azioncli https://downloads.azion.com/stage/${environment}/x86_64/azioncli
+curl -o azioncli https://downloads.azion.com/stage/${environment}/x86_64/azion
 chmod 777 ./azioncli
 
 echo creating apps directory 
